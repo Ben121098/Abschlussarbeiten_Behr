@@ -60,6 +60,9 @@ def textmining(name, mincount):
     return result_lists, df
 
 
+if __name__ == "__main__":
+    textmining(name="something", mincount=200)
+
 '''
 
 from gensim.models import Word2Vec

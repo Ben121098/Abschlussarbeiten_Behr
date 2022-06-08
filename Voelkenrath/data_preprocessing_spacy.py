@@ -47,8 +47,8 @@ def is_datawaste(token):
 def preprocessing(pdf_data):
     # function for preprocessing pdf_data with spacy module
     # import spacy library
-    #lib = spacy.load('en_core_web_sm')
-    lib = spacy.load('de_core_news_md')
+    lib = spacy.load('en_core_web_sm')
+    # lib = spacy.load('de_core_news_md')
     # fix max length
     lib.max_length = 150000000
 
